@@ -1,7 +1,7 @@
 Summary:        x86 processor information tool.
 Name:           x86info
 Version:        1.30
-Release:        5%{?dist}
+Release:        6%{?dist}
 Epoch:          1
 Group:          System Environment/Base
 License:        GPLv2
@@ -38,6 +38,9 @@ install -p -m 0644 lsmsr.8 %{buildroot}%{_mandir}/man8/
 %{_mandir}/man8/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1:1.30-6
+- Mass rebuild 2013-12-27
+
 * Thu May 23 2013 Prarit Bhargava <prarit@redhat.com> - 1:1.30-5
 - Add man page for lsmsr
 
